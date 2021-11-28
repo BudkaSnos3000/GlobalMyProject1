@@ -1,6 +1,8 @@
 //funcs.cpp
 #include "stdafx.h"
 #include "funcs.h"
+#include <cmath>
+
 
 double MySum(double a, double b)
 {
@@ -19,6 +21,7 @@ double MyDiv(double a, double b)
 	return a / b;
 }
 
+<<<<<<< HEAD
 int MyPow(int num, int n) 
 {
 	int res = num;
@@ -27,4 +30,9 @@ int MyPow(int num, int n)
 		res *= num;
 	}
 	return res;
+=======
+double MyPow(double a, double b)
+{
+	return exp(b * log(a));
+>>>>>>> develop
 }
